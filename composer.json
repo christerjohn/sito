@@ -1,0 +1,11 @@
+{
+    "name": "lumi/saleinvoice",
+    "description": "sale invoicing",
+    "authors": [
+        {
+            "name": "Christer John",
+            "email": "santiagochrister@gmail.com"
+        }
+    ],
+    "require": {}
+}
