@@ -18,7 +18,8 @@ class Person
 	private $mobile;
 	private $phone;
 
-	public function __construct($fname, $lname, $mname, $birthdate, $strtaddress, $city, $province, $country, $zipcode, $religion, $gender, $mobile, $phone) {
+	public function __construct($fname, $lname, $mname, $birthdate, $strtaddress, $city, $province, $country, $zipcode, $religion, $gender, $mobile, $phone) 
+	{
 		$this->fname = $fname;
 		$this->lname = $lname;
 		$this->mname = $mname;
@@ -121,7 +122,7 @@ class Person
 
 	public function getFullAddress() 
 	{
-		return $this->strtaddress . " " . $this->city. ", ". $this->province . ", ". $this->country . " " . $this->zipcode;
+		return $this->strtaddress . " " . $this->city . ", " . $this->province . ", ". $this->country . " " . $this->zipcode;
 	}
 
 	public function getStreetAddress() 
