@@ -17,7 +17,7 @@ namespace SITO\saleinvoice;
 		private $mobile;
 		private $phone;
 
-		public function __construct($fname, $lname, $mname, $birthdate, $strtaddress, $city, $province, $country, $zipcode, $religion, $gender, $mobile, $phone) {
+		public function __construct() {
 			$this -> fname = $fname;
 			$this -> lname = $lname;
 			$this -> mname = $mname;
